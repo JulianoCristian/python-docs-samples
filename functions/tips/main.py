@@ -165,6 +165,7 @@ def avoid_infinite_retries(data, context):
 # [START functions_tips_retry]
 error_client = error_reporting.Client()
 
+
 def retry_or_not(data, context):
     """Background Cloud Function that demonstrates how to toggle retries.
 
