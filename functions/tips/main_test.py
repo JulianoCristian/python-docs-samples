@@ -15,11 +15,12 @@
 import datetime
 
 import flask
-import main
 from mock import MagicMock, Mock, patch
 import pytest
 import requests
 import responses
+
+import main
 
 
 # Create a fake "app" for generating test request contexts.
