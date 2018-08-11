@@ -13,9 +13,8 @@
 # limitations under the License.
 
 import flask
-import pytest
-
 import main
+import pytest
 
 
 # Create a fake "app" for generating test request contexts.

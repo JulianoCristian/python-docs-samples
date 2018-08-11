@@ -12,13 +12,11 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 import flask
+import main
 import pytest
 import requests
 import responses
-
-import main
 
 
 # Create a fake "app" for generating test request contexts.

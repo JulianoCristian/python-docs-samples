@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# [START functions_log_helloworld]
-import logging
-
-# [END functions_log_helloworld]
-
 # [START functions_log_retrieve]
 import os
 # [END functions_log_retrieve]
@@ -24,6 +19,12 @@ import os
 # [START functions_logs_retrieve]
 from google.cloud import logging as cloud_logging
 # [END functions_logs_retrieve]
+
+
+# [START functions_log_helloworld]
+import logging
+
+# [END functions_log_helloworld]
 
 
 # [START functions_log_helloworld]
