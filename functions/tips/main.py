@@ -182,8 +182,8 @@ def retry_or_not(data, context):
         try_again = False
 
     try:
-        raise Exception('I failed you')
-    except Exception as e:
+        raise RuntimeError('I failed you')
+    except RuntimeError as e:
         error_client.report_exception()
         if try_again:
             raise e  # Raise the exception and try again
